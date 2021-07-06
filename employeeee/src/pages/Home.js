@@ -72,11 +72,11 @@ class Home extends Component  {
         <Wrapper>
                 {this.state.users.map(user => {
                 return (
-                    <div class="card" style={{width: "18rem"}}>
-                    <img src={user.picture.large} class="card-img-top" alt="person"/>
-                    <div class="card-body">
-                        <h5 class="card-title">{user.name.first} {user.name.last}</h5>
-                        <p class="card-text">{user.location.city}, {user.location.country}</p>
+                    <div className="card" style={{width: "18rem"}}>
+                    <img src={user.picture.large} className="card-img-top" alt="person"/>
+                    <div className="card-body">
+                        <h5 className="card-title">{user.name.first} {user.name.last}</h5>
+                        <p className="card-text">{user.location.city}, {user.location.country}</p>
                     </div>
                     </div>
                 );
