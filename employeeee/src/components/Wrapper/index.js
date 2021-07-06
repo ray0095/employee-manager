@@ -1,8 +1,8 @@
 import React from "react";
-import "./style.css";
+
 
 function Wrapper(props) {
-    return <main className="wrapper">{props.children}</main>;
+  return <div className="d-flex justify-content-around flex-wrap">{props.children}</div>;
 }
 
 export default Wrapper;
