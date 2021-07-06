@@ -1,11 +1,9 @@
 import axios from "axios";
 
-export default {
-    getAllEmployees: function() {
-        return axios.get("https://randomuser.me/api/");
-    },
-    getEmployeeLocal: function(location) {
-        return axios.get("https://randomuser.me/api/?nat=" + location)
+// Export an object containing methods we'll use for accessing the Dog.Ceo API
 
-    }
-}
+export default {
+  getEmployees: function() {
+    return axios.get("https://randomuser.me/api/?results=100");
+  },
+};
