@@ -1,6 +1,6 @@
 # Employee Manager
 
-## Link to deployed site:
+## Link to deployed site: https://employee-manager-rs.herokuapp.com/
 
 
 ## Description 
